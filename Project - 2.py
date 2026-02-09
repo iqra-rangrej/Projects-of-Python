@@ -1,4 +1,5 @@
 # Pattern Generator and Number Anayzer 
+
 print("Welcome to the Pattern Generator and Number Analyzer !")
 print()
 while True:
@@ -36,9 +37,3 @@ while True:
        break
     else:
       print("Invalid choice!Please select 1,2 or 3.")
-
-
-
-
-
-            
