@@ -1,48 +1,62 @@
-🧩 Pattern Generator and Number Analyzer Project
+📊 Expense Tracker (Python)
 
-This is a simple Python console-based project that allows users to:
+📌 Description
 
-Generate star (*) patterns
+This project is an Expense Tracker built using Python. It uses OOP concepts, along with Pandas and NumPy, to manage and analyze expense data.
 
-Analyze a range of numbers (Even/Odd)
+---
 
-Calculate the sum of numbers in a given range
+⚙️ Features
 
-It is menu-driven and runs continuously until the user chooses to exit.
+- Add and store expenses
+- Calculate total and average spending
+- Category-wise expense analysis
+- Filter expenses by category
+- Generate full report
+- Data visualization (Bar, Line, Pie, Histogram)
 
-🚀 Features
-🔹 1. Pattern Generator
+---
 
-Takes the number of rows as input
+🧠 Technologies
 
-Prints a right-angled triangle star pattern
+- Python
+- Pandas
+- NumPy
+- Matplotlib
 
-Validates input (only positive numbers allowed)
+---
 
-Example:
+🏗️ OOP Methods
 
-*
-* *
-* * *
+- "add_expense()"
+- "get_summary()"
+- "filter_expenses()"
+- "generate_report()"
 
-🔹 2. Number Analyzer
+---
 
-Takes a start and end range
+▶️ Setup
 
-Identifies each number as Even or Odd
+1. Install libraries:
 
-Calculates and displays the sum of all numbers in the range
+pip install pandas numpy matplotlib
 
-Handles invalid ranges (end must be greater than start)
+2. Upload CSV file in Colab
 
-Example:
+3. Run the code
 
-Number 1 is Odd
-Number 2 is Even
-Number 3 is Odd
+---
 
-Sum of all numbers from 1 to 3 is: 6
+📈 Output
 
-🔹 3. Exit Option
+- Expense summary (Total, Average, Category-wise)
+- Charts for analysis
+- Filtered and full reports
 
-Safely exits the program with a goodbye message
+---
+
+📌 Conclusion
+
+This project shows how Python can be used to track and analyze expenses using OOP and data analysis tools.
+
+---
